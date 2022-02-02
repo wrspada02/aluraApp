@@ -1,0 +1,72 @@
+
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        
+        .templatePrincipal{
+            display: grid;
+            grid-template-columns: calc(25% - 0.5rem) calc(25% - 0.5rem) calc(25% - 0.5rem) calc(25% - 0.5rem);
+            grid-template-rows: calc(33% - 0.5rem) calc(33% - 0.5rem) calc(33% - 0.5rem);
+            grid-gap: 0.5rem;
+        }
+
+        .jogoFornite{
+            background: center / cover no-repeat;
+            grid-column: 1 / 4;
+            grid-row: 1 / 3;
+        }
+
+        .jogoPubg{
+            background: center / cover no-repeat;
+            grid-column: 4 / 4;
+            grid-row: 1/1;
+        }
+
+        .appSlack{
+            background: center / cover no-repeat;
+            grid-column: 4 / 4;
+            grid-row: 2/2;
+        }
+
+        .appWpp{
+            background: center / cover no-repeat;
+            grid-column: 4 / 4;
+            grid-row: 3/3;
+        }
+
+        .jogoCsgo{
+            background: center / cover no-repeat;
+            grid-column: 3 / 3;
+            grid-row: 3/3; 
+        }
+
+        .navegacaoLista{
+            display: grid;
+            grid-template-columns: calc(50% - .5rem) calc(50% - .5rem);
+            grid-gap: .5rem;
+            grid-template-rows: calc(50% - 0.5rem) 50%;
+            grid-column: 1 / 3;
+            grid-row: 3 / 3;
+        }
+
+        .navegacaoItens{
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+            font-family: sans-serif;
+            font-weight: bold;
+            line-height: 1.5;
+            background-color: #f5f4f4be;
+            border: 0.5px solid grey;
+            text-align: justify;
+            width: 100%;
+            height: 100%;
+        }
+
+        .navegacaoItens__titulo{
+            color: grey;
+            margin-left: 1rem;
+            vertical-align: middle;
+        }
