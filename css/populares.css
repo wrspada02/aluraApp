@@ -1,0 +1,77 @@
+
+    .templatePopulares{
+        display: grid;
+        grid-template-columns: calc(20% - 1rem) calc(20% - 1rem) calc(20% - 1rem) calc(20% - 1rem) calc(20% - 1rem);
+        grid-gap: 1rem;
+    }
+    
+    .templatePopulares__tituloPrincipal{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #3a3838;
+        border-bottom: 2px solid #6d6464;
+        padding: 1em;
+        font-family: sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .templatePopulares__app{
+        margin-top: 1rem;
+        background-color: #FDFDFD;
+        text-align: justify;
+    }
+
+    .templatePopulares__app--imagem{
+        width: 100%;
+        height: 50%;
+    }
+
+    .conteudoTexto{
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .tituloPopulares{
+        margin: 0.5em 0;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .dataTitulo{
+        margin: 0.5em 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #6d6464;
+    }
+
+    .descricaoApp{
+        margin: 0.5em 0;
+        font-family: sans-serif;
+        color: #3a3838;
+    }
+
+    .templatePopulares__appSlack, .templatePopulares__appWhatsApp, .templatePopulares__appTelegram, .templatePopulares__appTrello, .templatePopulares__appSkype{
+        grid-row: 1 / 1;
+    }
+
+    .templatePopulares__appSlack{
+        grid-column: 1 / 1;
+    }
+
+    .templatePopulares__appWhatsApp{
+        grid-column: 2 / 2;
+    }
+
+    .templatePopulares__appTelegram{
+        grid-column: 3 / 3;
+    }
+
+    .templatePopulares__appTrello{
+        grid-column: 4 / 4;
+    }
+
+    .templatePopulares__appSkype{
+        grid-column: 5 / 5;
+    }
